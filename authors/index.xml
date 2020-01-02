@@ -5,7 +5,7 @@
     <link>https://leogsouza.github.io/authors/</link>
       <atom:link href="https://leogsouza.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Leonardo Souza</copyright>
     <image>
       <url>https://leogsouza.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -14,11 +14,12 @@
     
     <item>
       <title></title>
-      <link>https://leogsouza.github.io/authors/admin/</link>
+      <link>https://leogsouza.github.io/authors/leogsouza/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://leogsouza.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.&lt;/p&gt;
+      <guid>https://leogsouza.github.io/authors/leogsouza/</guid>
+      <description>&lt;p&gt;I am a software developer expert building backend applications. I have strong knowledge building frontend applications
+and mobile applications. I&#39;m looking for opportunities to build new things and learn new concepts and technologies
+to improve my carrer.&lt;/p&gt;
 </description>
     </item>
     
