@@ -5,12 +5,34 @@
     <link>https://leogsouza.github.io/post/</link>
       <atom:link href="https://leogsouza.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Leonardo Souza</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Leonardo Souza</copyright><lastBuildDate>Sun, 05 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://leogsouza.github.io/img/icon-192.png</url>
       <title>Posts</title>
       <link>https://leogsouza.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Hello World, hello 2020</title>
+      <link>https://leogsouza.github.io/post/hello-world/</link>
+      <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://leogsouza.github.io/post/hello-world/</guid>
+      <description>&lt;p&gt;Hello Everyone, my name is Leonardo Souza and at the beginning of this year I decided to change my old website and create a blog to writing about anything that I wanted.&lt;/p&gt;
+&lt;h2 id=&#34;who-am-i&#34;&gt;&lt;strong&gt;Who am I?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;I am a self-taught Brazilian Software Developer that enjoys learning new things and sharing what I learn. I have over 14 years working in a variety of technologies and I am specialized in Backend and API Development a variety of technologies. I also have good experience with Frontend and a little bit with Mobile. When I am not coding, I usually spare my time with my family.&lt;/p&gt;
+&lt;h2 id=&#34;why-did-i-create-this-blog&#34;&gt;&lt;strong&gt;Why did I create this blog?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Well, some reasons encouraged me to create this blog:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I am studying English and I need to improve my skills to become fluent. So, I see that writing is a good way to improve them.&lt;/li&gt;
+&lt;li&gt;I want to boost my coding skills and increase my knowledge in software development. And for me, writing could allow me to understand and explain with more details a specific subject and then master it (applying Feynman Technique).&lt;/li&gt;
+&lt;li&gt;I also want to share my personal experiences that could be useful for anyone who&#39;s living a similar situation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;So, this is of my first post and I know that maybe I made some mistakes but I&#39;ll improve my writing skills as I write more and certainly give more interesting subjects.&lt;/p&gt;
+&lt;p&gt;Feel free to reach out with your thoughts.&lt;/p&gt;
+&lt;p&gt;Thank you!!&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
