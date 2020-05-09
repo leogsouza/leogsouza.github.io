@@ -5,12 +5,42 @@
     <link>https://leogsouza.github.io/authors/leogsouza/</link>
       <atom:link href="https://leogsouza.github.io/authors/leogsouza/index.xml" rel="self" type="application/rss+xml" />
     <description>Leonardo Souza</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Leonardo Souza</copyright><lastBuildDate>Sun, 05 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Leonardo Souza</copyright><lastBuildDate>Fri, 08 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://leogsouza.github.io/img/icon-192.png</url>
       <title>Leonardo Souza</title>
       <link>https://leogsouza.github.io/authors/leogsouza/</link>
     </image>
+    
+    <item>
+      <title>Your first program in Go (Golang)</title>
+      <link>https://leogsouza.github.io/post/your-first-program-in-go/</link>
+      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://leogsouza.github.io/post/your-first-program-in-go/</guid>
+      <description>&lt;p&gt;Hi Everyone, when we are learning a new programming language it&amp;rsquo;s common starting with the classic &amp;ldquo;Hello, World&amp;rdquo; program. So this is what we&amp;rsquo;ll do now in Go.&lt;/p&gt;
+&lt;p&gt;For this tutorial I&amp;rsquo;ll consider that you have go installed in your machine. If you don&amp;rsquo;t have go installed in your machine please access the &lt;a href=&#34;https://golang.org/doc/install&#34;&gt;Go documentation&lt;/a&gt; and follow the steps into installation section.&lt;/p&gt;
+&lt;h2 id=&#34;writing-your-code&#34;&gt;Writing your code&lt;/h2&gt;
+&lt;p&gt;Start creating a folder hello in your computer and inside of it create a new file called main.go.
+Next, add this content to main.go file&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import &amp;quot;fmt&amp;quot;
+
+
+func main() {
+  fmt.Println(&amp;quot;Hello, World&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let&amp;rsquo;s look through the code and understand the code.&lt;/p&gt;
+&lt;h2 id=&#34;run-the-program&#34;&gt;Run the program&lt;/h2&gt;
+&lt;p&gt;To run a go program, inside your the folder that you created the main.go and run the command like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;  $ go run main.go
+  &amp;quot;Hello, World&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For the moment, that&amp;rsquo;s all.&lt;/p&gt;
+&lt;p&gt;Thanks for reading, see you in the next post.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Hello World, hello 2020</title>
@@ -25,10 +55,10 @@
 &lt;ul&gt;
 &lt;li&gt;I am studying English and I need to improve my skills to become fluent. So, I see that writing is a good way to improve them.&lt;/li&gt;
 &lt;li&gt;I want to boost my coding skills and increase my knowledge in software development. And for me, writing could allow me to understand and explain with more details a specific subject and then master it (applying Feynman Technique).&lt;/li&gt;
-&lt;li&gt;I also want to share my personal experiences that could be useful for anyone who&#39;s living a similar situation.&lt;/li&gt;
+&lt;li&gt;I also want to share my personal experiences that could be useful for anyone who&amp;rsquo;s living a similar situation.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;conclusion&#34;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;So, this is my first post and I know that maybe I made some mistakes but I&#39;ll improve my writing skills as I write more and certainly give more interesting subjects.&lt;/p&gt;
+&lt;p&gt;So, this is my first post and I know that maybe I made some mistakes but I&amp;rsquo;ll improve my writing skills as I write more and certainly give more interesting subjects.&lt;/p&gt;
 &lt;p&gt;Feel free to reach out with your thoughts.&lt;/p&gt;
 &lt;p&gt;Thank you!!&lt;/p&gt;
 </description>
