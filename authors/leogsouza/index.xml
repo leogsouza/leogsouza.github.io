@@ -26,14 +26,28 @@ Next, add this content to main.go file&lt;/p&gt;
 
 import &amp;quot;fmt&amp;quot;
 
-
 func main() {
   fmt.Println(&amp;quot;Hello, World&amp;quot;)
 }
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Let&amp;rsquo;s look through the code and understand the code.&lt;/p&gt;
-&lt;h2 id=&#34;run-the-program&#34;&gt;Run the program&lt;/h2&gt;
-&lt;p&gt;To run a go program, inside your the folder that you created the main.go and run the command like this:&lt;/p&gt;
+&lt;p&gt;In the first line we have the package declaration&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Every go program is made up of packages and the program start running in package main.&lt;/p&gt;
+&lt;p&gt;In the next line we are using a package inside our program.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;import &amp;quot;fmt&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In our case we are using the package &lt;strong&gt;&amp;ldquo;fmt&amp;rdquo;&lt;/strong&gt; to use a function to print a message on the screen.&lt;/p&gt;
+&lt;p&gt;Following the code we have the function main&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;func main() {
+  fmt.Println(&amp;quot;Hello, World&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Every Go program has one and only one function main and inside of it you put what your program have to do. In this piece of code we are just calling the function &lt;strong&gt;Println&lt;/strong&gt; from the &lt;strong&gt;fmt&lt;/strong&gt; package and passing &amp;ldquo;Hello World&amp;rdquo; as argument. The function Println from &amp;ldquo;fmt&amp;rdquo; package just print the message passed as argument and appends a new line.&lt;/p&gt;
+&lt;h2 id=&#34;executing-the-program&#34;&gt;Executing the program&lt;/h2&gt;
+&lt;p&gt;To execute a go program you have to use the Go command to compile and run the program. 
+Inside the folder that you created the main.go, run the command like this:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;  $ go run main.go
   &amp;quot;Hello, World&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;

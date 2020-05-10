@@ -468,7 +468,7 @@ Writing your code Start creating a folder hello in your computer and inside of i
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    2 min read
   </span>
   
 
@@ -516,14 +516,28 @@ Next, add this content to main.go file</p>
 
 import &quot;fmt&quot;
 
-
 func main() {
   fmt.Println(&quot;Hello, World&quot;)
 }
 </code></pre>
 <p>Let&rsquo;s look through the code and understand the code.</p>
-<h2 id="run-the-program">Run the program</h2>
-<p>To run a go program, inside your the folder that you created the main.go and run the command like this:</p>
+<p>In the first line we have the package declaration</p>
+<pre><code class="language-go">package main
+</code></pre>
+<p>Every go program is made up of packages and the program start running in package main.</p>
+<p>In the next line we are using a package inside our program.</p>
+<pre><code class="language-go">import &quot;fmt&quot;
+</code></pre>
+<p>In our case we are using the package <strong>&ldquo;fmt&rdquo;</strong> to use a function to print a message on the screen.</p>
+<p>Following the code we have the function main</p>
+<pre><code class="language-go">func main() {
+  fmt.Println(&quot;Hello, World&quot;)
+}
+</code></pre>
+<p>Every Go program has one and only one function main and inside of it you put what your program have to do. In this piece of code we are just calling the function <strong>Println</strong> from the <strong>fmt</strong> package and passing &ldquo;Hello World&rdquo; as argument. The function Println from &ldquo;fmt&rdquo; package just print the message passed as argument and appends a new line.</p>
+<h2 id="executing-the-program">Executing the program</h2>
+<p>To execute a go program you have to use the Go command to compile and run the program. 
+Inside the folder that you created the main.go, run the command like this:</p>
 <pre><code class="language-bash">  $ go run main.go
   &quot;Hello, World&quot;
 </code></pre>
