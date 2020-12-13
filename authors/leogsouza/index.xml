@@ -5,12 +5,21 @@
     <link>https://leogsouza.github.io/authors/leogsouza/</link>
       <atom:link href="https://leogsouza.github.io/authors/leogsouza/index.xml" rel="self" type="application/rss+xml" />
     <description>Leonardo Souza</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Leonardo Souza</copyright><lastBuildDate>Fri, 08 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Leonardo Souza</copyright><lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://leogsouza.github.io/img/icon-192.png</url>
+      <url>https://leogsouza.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Leonardo Souza</title>
       <link>https://leogsouza.github.io/authors/leogsouza/</link>
     </image>
+    
+    <item>
+      <title>Trying to Learn Data Structures and Algorithms(AGAIN)</title>
+      <link>https://leogsouza.github.io/post/learning-data-structure/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://leogsouza.github.io/post/learning-data-structure/</guid>
+      <description>&lt;p&gt;I have over 15 years of experience working as a Software Developer and my biggest frustration it&amp;rsquo;s that I don&amp;rsquo;t have enough knowledge about Data Structures and Algorithms (DSA). So, to fix this, I decided (again) to start from beginning and study DSA improve my knowledge and feel better with myself. To help me to improve my knowledge I will write about every step that I will advance in this journey and share some material I will use to acomplish this goal.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Your first program in Go (Golang)</title>
@@ -18,7 +27,7 @@
       <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
       <guid>https://leogsouza.github.io/post/your-first-program-in-go/</guid>
       <description>&lt;p&gt;Hi Everyone, when we are learning a new programming language it&amp;rsquo;s common starting with the classic &amp;ldquo;Hello, World&amp;rdquo; program. So this is what we&amp;rsquo;ll do now in Go.&lt;/p&gt;
-&lt;p&gt;For this tutorial I&amp;rsquo;ll consider that you have go installed in your machine. If you don&amp;rsquo;t have go installed in your machine please access the &lt;a href=&#34;https://golang.org/doc/install&#34;&gt;Go documentation&lt;/a&gt; and follow the steps into installation section.&lt;/p&gt;
+&lt;p&gt;For this tutorial I&amp;rsquo;ll consider that you have go installed in your machine. If you don&amp;rsquo;t have go installed in your machine please access the &lt;a href=&#34;https://golang.org/doc/install&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Go documentation&lt;/a&gt; and follow the steps into installation section.&lt;/p&gt;
 &lt;h2 id=&#34;writing-your-code&#34;&gt;Writing your code&lt;/h2&gt;
 &lt;p&gt;Start creating a folder hello in your computer and inside of it create a new file called main.go.
 Next, add this content to main.go file&lt;/p&gt;
