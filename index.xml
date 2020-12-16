@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Trying to Learn Data Structures and Algorithms(AGAIN)</title>
+      <title>Learning Data Structures and Algorithms(AGAIN)</title>
       <link>https://leogsouza.github.io/post/learning-data-structure/</link>
       <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://leogsouza.github.io/post/learning-data-structure/</guid>
@@ -85,6 +85,14 @@ Inside the folder that you created the main.go, run the command like this:&lt;/p
 &lt;p&gt;Feel free to reach out with your thoughts.&lt;/p&gt;
 &lt;p&gt;Thank you!!&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://leogsouza.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://leogsouza.github.io/about/</guid>
+      <description></description>
     </item>
     
   </channel>
