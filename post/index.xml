@@ -5,12 +5,55 @@
     <link>https://leogsouza.github.io/post/</link>
       <atom:link href="https://leogsouza.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Leonardo Souza</copyright><lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Leonardo Souza</copyright><lastBuildDate>Thu, 24 Dec 2020 11:02:00 +0000</lastBuildDate>
     <image>
       <url>https://leogsouza.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://leogsouza.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Learning Data Structures - Arrays</title>
+      <link>https://leogsouza.github.io/post/array/</link>
+      <pubDate>Thu, 24 Dec 2020 11:02:00 +0000</pubDate>
+      <guid>https://leogsouza.github.io/post/array/</guid>
+      <description>&lt;p&gt;Array is a data structure used to store a fix number of elements and these elements should be of the same type. 
+In Go we create and use arrays as follows:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;
+package main
+
+import &amp;quot;fmt&amp;quot;
+
+func main() {
+  // we are creating an array that should store 3 elements
+  var a [3]int
+
+  // In Go, by default, an array is zero-value which means 
+  // that when is created an array of int type and it&#39;s not initialized, 
+  // all array positions are filled with 0s.
+  fmt.Println(&amp;quot;array elements:&amp;quot;, a)
+
+  // Set a value at specific index
+  a[1] = 5
+
+  fmt.Println(&amp;quot;array element set:&amp;quot;, a)
+  fmt.Println(&amp;quot;array at index 1:&amp;quot;, a[1])
+
+  // length of array
+  fmt.Println(&amp;quot;array length: &amp;quot;, len(a))
+
+  // traversing the array
+  fmt.Println(&amp;quot;Traversing array: &amp;quot;)
+  for i := 0; i &amp;lt; len(a); i++ {
+    fmt.Print(a[i], &amp;quot; &amp;quot;)
+  }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is a short explanation about arrays. Next time, I&amp;rsquo;ll discuss about Linked List.&lt;/p&gt;
+&lt;p&gt;Thanks a lot.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Learning Data Structures and Algorithms(AGAIN)</title>
