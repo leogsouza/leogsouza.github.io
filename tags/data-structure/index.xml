@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Go | Leonardo Souza</title>
-    <link>https://leogsouza.github.io/tags/go/</link>
-      <atom:link href="https://leogsouza.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
-    <description>Go</description>
+    <title>Data Structure | Leonardo Souza</title>
+    <link>https://leogsouza.github.io/tags/data-structure/</link>
+      <atom:link href="https://leogsouza.github.io/tags/data-structure/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data Structure</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Leonardo Souza</copyright><lastBuildDate>Mon, 04 Jan 2021 11:19:00 +0000</lastBuildDate>
     <image>
       <url>https://leogsouza.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
-      <title>Go</title>
-      <link>https://leogsouza.github.io/tags/go/</link>
+      <title>Data Structure</title>
+      <link>https://leogsouza.github.io/tags/data-structure/</link>
     </image>
     
     <item>
@@ -180,50 +180,6 @@ func main() {
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;This is a short explanation about arrays. Next time, I&amp;rsquo;ll discuss about Linked List.&lt;/p&gt;
 &lt;p&gt;Thanks a lot.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Your first program in Go (Golang)</title>
-      <link>https://leogsouza.github.io/post/your-first-program-in-go/</link>
-      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://leogsouza.github.io/post/your-first-program-in-go/</guid>
-      <description>&lt;p&gt;Hi Everyone, when we are learning a new programming language it&amp;rsquo;s common starting with the classic &amp;ldquo;Hello, World&amp;rdquo; program. So this is what we&amp;rsquo;ll do now in Go.&lt;/p&gt;
-&lt;p&gt;For this tutorial I&amp;rsquo;ll consider that you have go installed in your machine. If you don&amp;rsquo;t have go installed in your machine please access the &lt;a href=&#34;https://golang.org/doc/install&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Go documentation&lt;/a&gt; and follow the steps into installation section.&lt;/p&gt;
-&lt;h2 id=&#34;writing-your-code&#34;&gt;Writing your code&lt;/h2&gt;
-&lt;p&gt;Start creating a folder hello in your computer and inside of it create a new file called main.go.
-Next, add this content to main.go file&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
-
-import &amp;quot;fmt&amp;quot;
-
-func main() {
-  fmt.Println(&amp;quot;Hello, World&amp;quot;)
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Let&amp;rsquo;s look through the code and understand the code.&lt;/p&gt;
-&lt;p&gt;In the first line we have the package declaration&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Every go program is made up of packages and the program start running in package main.&lt;/p&gt;
-&lt;p&gt;In the next line we are using a package inside our program.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;import &amp;quot;fmt&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;In our case we are using the package &lt;strong&gt;&amp;ldquo;fmt&amp;rdquo;&lt;/strong&gt; to use a function to print a message on the screen.&lt;/p&gt;
-&lt;p&gt;Following the code we have the function main&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;func main() {
-  fmt.Println(&amp;quot;Hello, World&amp;quot;)
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Every Go program has one and only one function main and inside of it you put what your program have to do. In this piece of code we are just calling the function &lt;strong&gt;Println&lt;/strong&gt; from the &lt;strong&gt;fmt&lt;/strong&gt; package and passing &amp;ldquo;Hello World&amp;rdquo; as argument. The function Println from &amp;ldquo;fmt&amp;rdquo; package just print the message passed as argument and appends a new line.&lt;/p&gt;
-&lt;h2 id=&#34;executing-the-program&#34;&gt;Executing the program&lt;/h2&gt;
-&lt;p&gt;To execute a go program you have to use the Go command to compile and run the program. 
-Inside the folder that you created the main.go, run the command like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;  $ go run main.go
-  &amp;quot;Hello, World&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;For the moment, that&amp;rsquo;s all.&lt;/p&gt;
-&lt;p&gt;Thanks for reading, see you in the next post.&lt;/p&gt;
 </description>
     </item>
     

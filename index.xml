@@ -5,12 +5,140 @@
     <link>https://leogsouza.github.io/</link>
       <atom:link href="https://leogsouza.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Leonardo Souza</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Leonardo Souza</copyright><lastBuildDate>Thu, 24 Dec 2020 11:02:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Leonardo Souza</copyright><lastBuildDate>Mon, 04 Jan 2021 11:19:00 +0000</lastBuildDate>
     <image>
       <url>https://leogsouza.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Leonardo Souza</title>
       <link>https://leogsouza.github.io/</link>
     </image>
+    
+    <item>
+      <title>Learning Data Structures - Linked List</title>
+      <link>https://leogsouza.github.io/post/linked-list/</link>
+      <pubDate>Mon, 04 Jan 2021 11:19:00 +0000</pubDate>
+      <guid>https://leogsouza.github.io/post/linked-list/</guid>
+      <description>&lt;p&gt;A linked list is another linear data structure, like array, it stores elements in a linear way. However, unlike arrays, linked lists does not stores its elements at contiguous memory location. The elements are connected to each other using nodes. In another words, a linked list is a list of nodes where each node contains a data field and a reference (link) to the next node in the list.&lt;/p&gt;
+&lt;p&gt;Because of its form, this data structure allows add and remove elements eficiently from any position within the list during interation. But, the search cost more effort and often requires O(n) time to find an element.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s dive into some code e see how implement a Linked List in Go:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;
+package main
+
+// Node represents a linked list&#39;s node
+type Node struct {
+	Data int
+	Next *Node
+}
+
+// NewNode creates a pointer to a new Node
+func NewNode(data int) *Node {
+	newNode := &amp;amp;Node{}
+	newNode.Data = data
+
+	return newNode
+}
+
+// LinkedList is a linked list data structure
+type LinkedList struct {
+	Head *Node
+}
+
+// AddToHead adds a new node into linked list head
+func (ll *LinkedList) AddToHead(data int) {
+
+	newNode := NewNode(data)
+
+	newNode.Next = ll.Head
+	ll.Head = newNode
+
+}
+
+// AddAfter adds a new node after the given prevNode
+func (ll *LinkedList) AddAfter(prevNode *Node, data int) {
+	if prevNode == nil {
+		fmt.Println(&amp;quot;The given previous node cannot be null&amp;quot;)
+	}
+
+	newNode := NewNode(data)
+
+	newNode.Next = prevNode.Next
+
+	prevNode.Next = newNode
+}
+
+// AddToEnd adds a new node into do end of the linked list
+func (ll *LinkedList) AddToEnd(data int) {
+	newNode := NewNode(data)
+
+	if ll.Head == nil {
+		ll.Head = newNode
+		return
+	}
+
+	last := ll.Head
+	for last.Next != nil {
+		last = last.Next
+	}
+
+	last.Next = newNode
+}
+
+// DeleteNode deletes the first occurrence of a key in linked list
+func (ll *LinkedList) DeleteNode(key int) {
+	temp, prev := ll.Head, &amp;amp;Node{}
+
+	if temp != nil &amp;amp;&amp;amp; temp.Data == key {
+		ll.Head = temp.Next
+		return
+	}
+
+	for temp != nil &amp;amp;&amp;amp; temp.Data != key {
+		prev = temp
+		temp = temp.Next
+	}
+
+	if temp == nil {
+		return
+	}
+
+	prev.Next = temp.Next
+
+}
+
+// DeleteAt deletes a node at specific position
+func (ll *LinkedList) DeleteAt(position int) {
+	if ll.Head == nil {
+		return
+	}
+
+	node := ll.Head
+
+	if position == 0 {
+		ll.Head = node.Next
+	}
+
+	for i := 0; node != nil &amp;amp;&amp;amp; i &amp;lt; position-1; i++ {
+		node = node.Next
+	}
+
+	if node == nil || node.Next == nil {
+		return
+	}
+
+	next := node.Next.Next
+
+	node.Next = next
+}
+
+// DeleteList deletes the entire Linked List
+func (ll *LinkedList) DeleteList() {
+	ll.Head = nil
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For the moment, that&amp;rsquo;s all.&lt;/p&gt;
+&lt;p&gt;Thanks for reading, see you in the next post.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Learning Data Structures - Arrays</title>
